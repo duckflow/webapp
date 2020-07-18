@@ -5,11 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.0] - 2020-07-18
+
+### Added
+
+- Additional "Puppeteer" template (experimental)
+- Custom property panes for the "Puppeteer" template (experimental)
+- Generate `jest-puppeteer` tests as JavaScript code for the "Puppeteer" template (experimental)
+- Code folding for the Markup tab
+- Code folding for the Code tab
+
+### Changed
+
+- Rename "Code" tab to "Markup"
+- New "Code" tab for custom code generators (Puppeteer as an example)
+
+### Fixed
+
+- Fix default namespaces in the process templates
+
 ## [0.7.0] - 2020-06-21
 
 ### Added
 
-- Application blog released (https://blog.duckflow.app)
+- Application blog released (<https://blog.duckflow.app>)
 - Link to a Blog within the application menu and toolbar
 - GitHub Gist Viewer (`/gist/<id>` route)
 - Display "Map" and "Properties" panel in the tabs header
