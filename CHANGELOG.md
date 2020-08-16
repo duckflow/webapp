@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2020-08-16
+
+### Added
+
+- Special icons for the Code-based templates
+- Puppeteer API support:
+  - `page.pdf({ path: 'page.pdf' })`
+  - `page.screenshot({ path: 'example.png' })`
+- Custom Palette for Puppeteer template
+  - Create PDF task
+  - Create Screenshot task
+  - Create Expect task
+- Custom Context Pad for Puppeteer template (floating menu for the selected shape)
+  - Append PDF task
+  - Append Screenshot task
+  - Append Expect task
+- Generate Jest/Node.js project with all Puppeteer processes in the workspace
+- Display "Export as Jest project" if at least one Puppeteer process present in the workspace
+
+### Changed
+
+- Improved Property Panel styles
+- Improved code generation for Puppeteer template
+
+### Fixed
+
+- Fixed various BPMN-to-Jest parser bugs
+- Fix Puppeteer template markup and namespaces
+- Fix missing templates upon backup restore
+
 ## [0.8.0] - 2020-07-18
 
 ### Added
